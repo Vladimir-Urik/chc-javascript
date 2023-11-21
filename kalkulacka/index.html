@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Svejda Kalkulator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="kalkulacka">
+    <div class="display">
+    </div>
+
+    <div class="buttons">
+        <button onclick="addContent(7)">7</button>
+        <button onclick="addContent(8)">8</button>
+        <button onclick="addContent(9)">9</button>
+        <button onclick="addContent('/')">/</button>
+        <button onclick="addContent(4)">4</button>
+        <button onclick="addContent(5)">5</button>
+        <button onclick="addContent(6)">6</button>
+        <button onclick="addContent('*')">*</button>
+        <button onclick="addContent(1)">1</button>
+        <button onclick="addContent(2)">2</button>
+        <button onclick="addContent(3)">3</button>
+        <button onclick="addContent('-')">-</button>
+        <button class="two" onclick="addContent(0)">0</button>
+        <button onclick="addContent('.')">.</button>
+        <button onclick="addContent('+')">+</button>
+        <button onclick="saveMemory()">M+</button>
+        <button onclick="loadMemory()">MR</button>
+        <button onclick="clearMemory()">CLR</button>
+        <button class="half" onclick="addContent('(')">(</button>
+        <button class="half" onclick="addContent(')')">)</button>
+        <button class="two" onclick="clearData()">C</button>
+        <button class="two primary" onclick="calculate()">=</button>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
