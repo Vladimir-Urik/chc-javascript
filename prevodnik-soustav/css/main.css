@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #000000;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nejaka-hovadina {
+  background-color: #000000;
+  color: #1aff00;
+  font-size: 20px;
+  padding: 10px;
+  border: #19ff00 2px solid;
+  width: fit-content;
+  margin-top: 35px;
+}
+
+#vysledek-mrdky > span {
+  color: #cdffd4;
+}
+
+button {
+  margin-top: 30px;
+  background-color: #000000;
+  border: #19ff00 2px solid;
+  color: #53ff00;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #19ff00;
+  color: #000000;
+}
+
+h1 {
+  color: #1aff00;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+}

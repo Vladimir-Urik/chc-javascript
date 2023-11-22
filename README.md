@@ -4,6 +4,7 @@ Tento repozitář obsahuje sérii krátkých projektů v jazyce JavaScript, kter
 
 ## Úkoly:
 - [Kalkulačka](./kalkulacka/)
+- [Převodník soustav](./prevodnik-soustav/)
 
 ## Mohu přidat něco od sebe?
 Samozřejmě, pokud máš nějaký nápad na vylepšení, nebo jsi našel/našla chybu, můžeš mi poslat pull request. Pokud se mi to bude líbit, rád to přidám.

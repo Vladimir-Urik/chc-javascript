@@ -30,6 +30,11 @@ body {
     color: #ffe800;
 }
 
+.container > p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
 .container > hr {
     margin-bottom: 1.5rem;
     display: block;
